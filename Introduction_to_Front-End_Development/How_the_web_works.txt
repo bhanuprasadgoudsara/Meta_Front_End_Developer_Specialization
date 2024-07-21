@@ -1,3 +1,4 @@
 How the Internet works ?
 Network: Two devices connect and communicate via wired or wireless connection
 Network switch: Connects multiple devices and allows thems to communicate with each other.
+Interconnected Network (InterNet): Network switchs connects with other Network switchs and two or more networks can be connected.
