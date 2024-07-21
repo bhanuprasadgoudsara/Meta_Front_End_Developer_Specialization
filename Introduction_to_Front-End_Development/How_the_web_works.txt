@@ -2,3 +2,11 @@ How the Internet works ?
 Network: Two devices connect and communicate via wired or wireless connection
 Network switch: Connects multiple devices and allows thems to communicate with each other.
 Interconnected Network (InterNet): Network switchs connects with other Network switchs and two or more networks can be connected.
+Server: A computer that runs applications and services and provides services to other computers( generally on the InterNet).
+Clint: A computer which request services by user(generally over the InterNet).
+Client-Server Model: Servers <---> InterNet <---> Clients.
+100s of Servers stored in Data-Center.
+Data center has continuous Power, Internet connection, Cooling.
+Server Hardware: Physically touchable and dificult to change, as we need to physically need to replace. 
+Server Software: Code runs on server. Easy to change.
+Web-Server: includes webisite storage and administration.
