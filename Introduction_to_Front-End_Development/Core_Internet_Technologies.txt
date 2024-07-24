@@ -1,1 +1,57 @@
+Introduction to Internet Protocols:
+Internet Protocol: makes possible to packets of information to be delivred or received
+There are 2 standards of Protocol:
+- IP Version 4: IP address contains 4 octets seperated by periods or dots. Ex: 192.0.2.235
+- IP Version 6: IP address contains 8 groups of hexadecimal digits separated by a colon. Ex: 4527:0a00:1567:0200:ff00:0042:8239
+Every computer in a network is assigned an IP address.
+IP packets or Datagrams: Data sent as series of messages 
+
+A IP Packet contains:
+- a header
+  - Destination IP address
+  - Source IP address
+- a payload or the data with some other protocols
+
+While transmitting data in data packets
+  - may arrive out of order
+  - may become damaged or corrupted
+  - may dropped or lost
+
+To solve above problems, the Pay load contains other Protocols:
+it can be assumed as a other message inside the Payload.
+1. TCP - Transmission Control Protocol
+2. UDP - User Datagram Protocol
+
+TCP can solve all 3 problems, but at the cost of small delay while sending data.
+TCP is used for sending the data that must arrive correctly and in order such as Text or Image file.
+
+UDP only solves only corrupt packge issue, but packets can still arrive out of order or not arrive at all.
+UDP is used for sending the data that can't tolerate some data loss such as voice calls or Live video straming.
+
+TCP is used for data that must arrive correctly and in order. This is because TCP can deal with data packets arriving out of order, becoming damaged or corrupted, or dropped or lost albeit at the cost of a small delay.
+
+Other Internet Protocols:
+1. Dynamic Host Configuration Protocol (DHCP): 
+Used to assign your computer an IP address and keeps track of computers on the network and their IP addresses.
+
+2. Dynamic Name System Protocol (DNS):
+Your computer needs a way to know with which IP address to communicate when you visit a website in your web browser, for example, meta.com. Your computer then checks with the DNS server associated with the domain name and then returns the correct IP address.
+
+3. Internet Message Access Protocol (IMAP):
+This provides a way to download emails and manage your mailbox on the server storing your emails. 
+
+4. Simple Mail transfer Protocol (SMTP):
+It allows email clients to submit emails (that are already on your device) for sending via an SMTP server. You can also use SMTP to receive emails from an email client, but IMAP is more commonly used.
+
+5. Post Office Protocol (POP):
+POP used to download emails to an email client. The main difference in using POP instead of IMAP is that POP will delete the emails on the server once they have been downloaded to your local device. Although it is no longer commonly used in email clients, developers often use it to implement email automation as it is a more straightforward protocol than IMAP.
+
+6. File Transfer Protocol (FTP):
+FTP used to transfer the files from your local computer to the server where our websites and web applications on the Internet are running. FTP allows you to list, send, receive and delete files on a server. Your server must run an FTP Server and you will need an FTP Client on your local machine. The data is transmitted insecurely when using the File Transfer Protocol. It means that third parties may understand the data that you are sending. This is not right if you transmit company files such as software and databases. 
+
+7. Secure Shell protocol (SSH):
+SSh used to log in and interact with the computer remotely. Using an SSH client allows you to connect to an SSH server running on a server to perform commands on the remote computer. All data sent over SSH is encrypted. This means that third parties cannot understand the data transmitted. Only the sending and receiving computers can understand the data.
+
+8. SSH File Transfer Protocol or Secure File transfer Protocol(SFTP): 
+SFTP can be used to transfer files over the SSH protocol. It ensures that the data is transmitted securely. Most FTP clients also support the SFTP protocol.
 
