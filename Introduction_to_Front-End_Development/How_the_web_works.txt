@@ -42,4 +42,28 @@ HTTP (Hyper Text Transmission Protocol): A protocol that is used for communicati
 Web browser --- HTTP Request --> Web Server <=> DataBase
 Web browser <-- HTTP Request --- Web Server <=> DataBase
 
-Web Hosting ?
+Web Hosting:
+A service where we place our websites and files on the hosting company's webserver using which developers can lauch webites to the Inernet.
+Types of Web Hosting for our Websites and web applications:
+1. Shared Hosting
+2. Virtual private Hosting
+3. Dedicatd Hosting
+4. Cloud Hosting
+
+Shared Hosting: 
+This is cheapest hosting. We pay for a location on a webserver contaning many web hosting accounts with shared hosting. It means we also share processing power, memory and bandwidth with other websites that might slow our performance. Shared hosting is suitable for:
+  - small websites with samll no. of visitors, 
+  - low cost sand-box practice environment for developers to practice deploying or hosting.
+  - free shared hosting offered by some company with limitations or advertisements
+
+Virtual Private Hosting (VPS):
+This is used for sites with more considerable demand and more expensive than Shard Hosting. 
+VPS is a virtual server with dedicated CPU, memory and bandwidth resources.
+It will be running on a hardware server with other VPS instances but as the resources are fixed per VPN instance, our website will be unlikely to be imapcted by the performance of other VPN instances. 
+
+Dedicated Hosting:
+A dedicated physical hardware server is dedicated to us and our website only and expensive than VPS hosting. All hardware, CPU, memory and bandwidth resources are ours to use. 
+
+Cloud Hosting:
+A website will be run in Cloud environment which expands across multiple physical and virtual servers.
+if a physical or a virtual server fails, our website will run on a different srver and stay online. Main advantage is no limitation, we can use as many resources as we need without hardware limitations. However, we pay based on resource use. Higher Cost, But Scalable.
