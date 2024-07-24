@@ -41,3 +41,5 @@ URL ( Uniform Resource Locator ): Web Address entered in addressbar of Webbrowse
 HTTP (Hyper Text Transmission Protocol): A protocol that is used for communication of browser and server when we make a request using URL
 Web browser --- HTTP Request --> Web Server <=> DataBase
 Web browser <-- HTTP Request --- Web Server <=> DataBase
+
+Web Hosting ?
