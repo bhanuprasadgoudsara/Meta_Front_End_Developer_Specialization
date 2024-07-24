@@ -138,8 +138,4 @@ indicate the failure occurred on the web server, while trying to process the req
 Ex: 
 500 Internal Server Error: Generic Server Error: indicates Server failed to process the request.
 
-HTTPS: SECURE version of HTTP. used to secure the communication between two computers so that no body else can see the information being sent and recived. It does this by using encryption.
-
-The HTTP & HTTPS behave the same way and have the same content. The big difference is that before the content is sent, it is turned into a secret code. Only the other computers can turn the secret code back into original content.
-
-We use HTTPS everyday. Lock Icon beside the URL in web browser.
+HTTPS: SECURE version of HTTP. used to secure the communication between two computers so that no body else can see the information being sent and recived. It does this by using encryption. The HTTP & HTTPS behave the same way and have the same content. The big difference is that before the content is sent, it is turned into a secret code. Only the other computers can turn the secret code back into original content. We use HTTPS everyday. Lock Icon beside the URL in web browser.
