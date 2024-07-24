@@ -76,10 +76,11 @@ Accept-Language: en (header)
 
 HTTP method: describes the type of action that the client must be perform.
 Most commonly used HTTP methods are:
-1. GET: retrieve info from server
-2. POST: send data to the server
-3. PUT: updates in the server
-4. DELETE: removes the resource
+1. GET: retrieve info or resource from the server
+2. POST: send data or resource to the server
+3. PUT: updates or replaces a resource in the server
+4. DELETE: removes or deletes a resource in the server
+5. PATCH: partially updates a resource in the server
 
 For certain request methods, the request will also contain a body of content that the client is sending.
 
@@ -118,6 +119,10 @@ POST: the resource is succssully transmitted to the web server
 PUT: the resource is succssully transmitted to the web server
 DELETE: the resource is deleted 
 
+201 Created - a resource was created.
+202 Accepted - accepted but processing has not completed.
+204 No Content - not returning any content.
+
 Redirection responses: (300 - 399)
 Indicates to the web client that the requested resource has been moved to a different path.
 Ex: 
@@ -128,14 +133,16 @@ When web browsers receive these responses, they will automatically submit the re
 Client Error responses: (400 - 499)
 Indicate the request contained bad syntax or content and can not be processed by the web server.
 Ex:
-400 : web browser or client submitted bad data to the server.
-401 : user must log in to an account before the request can be processed
-403 : request is valid, but the web server is refusing to process it. user does not sufficient permissions to execute an action in a web application.
-404 : requested resource was not found on the web server.
+400 Bad Request : web browser or client submitted bad data to the server.
+401 Unauthorized : user must log in to an account before the request can be processed
+403 Forbidden : request is valid, but the web server is refusing to process it. user does not sufficient permissions to execute an action in a web application.
+404 Not Found : requested resource was not found on the web server.
 
 Server Error responses: (500 - 599)
 indicate the failure occurred on the web server, while trying to process the request.
 Ex: 
 500 Internal Server Error: Generic Server Error: indicates Server failed to process the request.
+502 Bad Gateway: invalid response from the Application Server.
+503 Service Unavailable: web server cannot process the request.
 
 HTTPS: SECURE version of HTTP. used to secure the communication between two computers so that no body else can see the information being sent and recived. It does this by using encryption. The HTTP & HTTPS behave the same way and have the same content. The big difference is that before the content is sent, it is turned into a secret code. Only the other computers can turn the secret code back into original content. We use HTTPS everyday. Lock Icon beside the URL in web browser.
