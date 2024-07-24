@@ -25,6 +25,7 @@ Website: A collection of webpages that link together.
 How a webpage works ?
 Webpage: In most its basic form, a webpage is just a text document.
 To work with webpage, we ned to know 3 technologies:
-  - HTML: build and structures the contents we see.
-  - CSS: controls decoration (colors and style).
-  - JavaScript: responsible for user interaction (services).
+  - HTML (Hyper Text Markup Language): build and structures the contents we see. works by using Markup Tags which describe the content displayed in browser window.
+  - CSS (Cascading Style Sheets): controls visual enhancements or decoration (colors and style). enhances HTML and tells them how to display.
+  - JavaScript: Programming Language built into the browser and responsible for user interaction (services), data processing, cotrol and action. Power House of Webpage. 
+Page Rendering: creation of webpage from code by the Webbrowser. 
