@@ -29,3 +29,8 @@ To work with webpage, we ned to know 3 technologies:
   - CSS (Cascading Style Sheets): controls visual enhancements or decoration (colors and style). enhances HTML and tells them how to display.
   - JavaScript: Programming Language built into the browser and responsible for user interaction (services), data processing, cotrol and action. Power House of Webpage. 
 Page Rendering: creation of display elements of webpage from code by the Webbrowser. 
+
+What is a webbrowser and how does it work ?
+Webbrowser: A software application that we use to browse the World Wide Web (WWW).
+REQUEST ---> WEBBROWSER ---> RESPONSE ---> displayed as content in Website.
+URL ( Uniform Resource Link ): Web Address entered in addressbar in Webbrowser
