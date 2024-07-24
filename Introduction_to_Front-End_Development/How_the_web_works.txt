@@ -17,6 +17,7 @@ Web-Server: a service software which includes functions like:
   - security, 
   - managing email and 
   - handling thousnads of web requests from clients per each second
+  - allows other computer sto mkake
 Request-Response Cycle: Open browser in your DEVICE, type name of WEBSITE, WEB SERVER will send you back website's content.
 
 What are websites and webpages ?
@@ -28,9 +29,15 @@ To work with webpage, we ned to know 3 technologies:
   - HTML (Hyper Text Markup Language): build and structures the contents we see. works by using Markup Tags which describe the content displayed in browser window.
   - CSS (Cascading Style Sheets): controls visual enhancements or decoration (colors and style). enhances HTML and tells them how to display.
   - JavaScript: Programming Language built into the browser and responsible for user interaction (services), data processing, cotrol and action. Power House of Webpage. 
-Page Rendering: creation of display elements of webpage from code by the Webbrowser. 
+Page Rendering: creation of display elements of webpage for the end-user from code by the Webbrowser. 
 
 What is a webbrowser and how does it work ?
 Webbrowser: A software application that we use to browse the World Wide Web (WWW).
 REQUEST ---> WEBBROWSER ---> RESPONSE ---> displayed as content in Website.
-URL ( Uniform Resource Link ): Web Address entered in addressbar in Webbrowser
+URL ( Uniform Resource Locator ): Web Address entered in addressbar of Webbrowser and it contains:
+  - Protocol or HTTP
+  - Domain name (Name of website)
+  - file path
+HTTP (Hyper Text Transmission Protocol): A protocol that is used for communication of browser and server when we make a request using URL
+Web browser --- HTTP Request --> Web Server
+Web browser <-- HTTP Request --- Web Server
