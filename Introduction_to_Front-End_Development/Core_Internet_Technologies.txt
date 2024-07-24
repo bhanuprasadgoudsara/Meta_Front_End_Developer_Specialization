@@ -95,3 +95,51 @@ HTTP response format is similar to the HTTP request format.
 Following the header, the response will optionally contain a MESSAGE BODY consisting of the response contents such as HTML document, the image file and so on.
 
 HTTP Status Code contained within Header indicate if the HTTP request is succesfully completed.
+Code values are in the range of 100-599 and are grouped by purpose.
+The STATUS MESSAGE is a text representation of the status code.
+
+There are 5 groups of status codes:
+1. Informational responses   : 100 - 199
+2. Successful responses      : 200 - 299
+3. Redirection responses     : 300 - 399
+4. Client Error responses    : 400 - 499
+5. Server Error responses    : 500 - 599
+
+Informational Responses: (100 - 199)
+provisional rsponses sent by server (interim before actual response)
+Ex: 100 CONTINUE - continue the request or ignore the response if the request is already finished.
+
+Successful responses: (200 - 299)
+Request successfully processed by web server. We receive this respone everyday when we receive the content succssfully from a website
+Ex: 200 OK
+200 OK meaning depnd on HTTP method:
+GET: the resource is found and it is included in the body of the response
+POST: the resource is succssully transmitted to the web server
+PUT: the resource is succssully transmitted to the web server
+DELETE: the resource is deleted 
+
+Redirection responses: (300 - 399)
+Indicates to the web client that the requested resource has been moved to a different path.
+Ex: 
+301 MOVED PERMANENTLY :
+302 FOUND             : temporary redirection, the resource is temporarily moved.
+When web browsers receive these responses, they will automatically submit the request for the resource at the new path.
+
+Client Error responses: (400 - 499)
+Indicate the request contained bad syntax or content and can not be processed by the web server.
+Ex:
+400 : web browser or client submitted bad data to the server.
+401 : user must log in to an account before the request can be processed
+403 : request is valid, but the web server is refusing to process it. user does not sufficient permissions to execute an action in a web application.
+404 : requested resource was not found on the web server.
+
+Server Error responses: (500 - 599)
+indicate the failure occurred on the web server, while trying to process the request.
+Ex: 
+500 Internal Server Error: Generic Server Error: indicates Server failed to process the request.
+
+HTTPS: SECURE version of HTTP. used to secure the communication between two computers so that no body else can see the information being sent and recived. It does this by using encryption.
+
+The HTTP & HTTPS behave the same way and have the same content. The big difference is that before the content is sent, it is turned into a secret code. Only the other computers can turn the secret code back into original content.
+
+We use HTTPS everyday. Lock Icon beside the URL in web browser.
