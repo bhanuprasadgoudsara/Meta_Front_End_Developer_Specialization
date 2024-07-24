@@ -55,3 +55,43 @@ SSh used to log in and interact with the computer remotely. Using an SSH client 
 8. SSH File Transfer Protocol or Secure File transfer Protocol(SFTP): 
 SFTP can be used to transfer files over the SSH protocol. It ensures that the data is transmitted securely. Most FTP clients also support the SFTP protocol.
 
+Introduction to HTTP:
+HTTP is the Core Oerational Protocol of World Wide Web.
+HTTP enables your web browser to communicate with a web server that hosts a website.
+HTTP is the communication protocol that we use whenever we browse the web.
+HTTP - HyperText Transfer Protocol
+HTTP is used for tranferring webresources such as HTML documents, images, styles and other files.
+HTTP is a requet-response based protocol.
+A web browser or  client sends an HTTP request to a server and the web server sends the HTTP response back to the browser.
+
+Make-up of HTTP Request:
+- method
+- path
+- version and
+- headers
+
+GET (method)/ HTTP (path)/ 1.1(version)
+Host: developer.mozilla.org (header)
+Accept-Language: en (header)
+
+HTTP method: describes the type of action that the client must be perform.
+Most commonly used HTTP methods are:
+1. GET: retrieve info from server
+2. POST: send data to the server
+3. PUT: updates in the server
+4. DELETE: removes the resource
+
+For certain request methods, the request will also contain a body of content that the client is sending.
+
+HTTP Path: represetation of where the resource is stored on the web server.
+example: https://example.com/images/image.jpg
+
+HTTP verions: There are multiple versions of HTTP protocol. Most used versions are 1.1 and 2.0.
+
+HTTP Headers: contains additional information about the request and the client that is making the request.
+
+Make-up of HTTP Response:
+HTTP response format is similar to the HTTP request format.
+Following the header, the response will optionally contain a MESSAGE BODY consisting of the response contents such as HTML document, the image file and so on.
+
+HTTP Status Code contained within Header indicate if the HTTP request is succesfully completed.
