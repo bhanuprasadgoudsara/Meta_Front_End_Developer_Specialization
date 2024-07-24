@@ -67,3 +67,17 @@ A dedicated physical hardware server is dedicated to us and our website only and
 Cloud Hosting:
 A website will be run in Cloud environment which expands across multiple physical and virtual servers.
 if a physical or a virtual server fails, our website will run on a different srver and stay online. Main advantage is no limitation, we can use as many resources as we need without hardware limitations. However, we pay based on resource use. Higher Cost, But Scalable.
+QUIZ:
+1. In a client-server model, the accessing device is CLIENT.
+2. The website address that you type in your web browser to navigate to a website is called a DOMAIN NAME.
+3. Servers are typically stored in a building called a DATA CENTER.
+4. The physical components of a server are called the HARDWARE.
+5. The purpose of a web server is to _____
+Ans: Receive requests from a web browser and to respond with the correct content for that request.
+6. A website can consist of multiple web pages linked together - TRUE.
+7. The links you click on in your web browser are known as HYPERLINKS.
+8. Which of these are the 3 main technologies of the web browser? Select all that apply.
+- HTML
+- JavaScript
+- CSS
+9. When you run a website on the cloud, the website is restricted to one physical server. - FALSE
