@@ -154,3 +154,4 @@ For a webpage, we need 3 files and need to be linked together for a complete fun
 - a JavaScript file (clock.js)
 
 Webpages, Websites and Web Apps:
+Webpage: A single page that consists of HTML, CSS, and JavaScript. It displays images, text, videos and other content in the webbrowser.
