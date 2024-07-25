@@ -146,3 +146,11 @@ Ex:
 503 Service Unavailable: web server cannot process the request.
 
 HTTPS: SECURE version of HTTP. used to secure the communication between two computers so that no body else can see the information being sent and recived. It does this by using encryption. The HTTP & HTTPS behave the same way and have the same content. The big difference is that before the content is sent, it is turned into a secret code. Only the other computers can turn the secret code back into original content. We use HTTPS everyday. Lock Icon beside the URL in web browser.
+
+Introduction to HTML, CSS and JavaScript:
+For a webpage, we need 3 files and need to be linked together for a complete function.   
+- an HTML file (clock.html)
+- a CSS file (style.css)
+- a JavaScript file (clock.js)
+
+Webpages, Websites and Web Apps:
