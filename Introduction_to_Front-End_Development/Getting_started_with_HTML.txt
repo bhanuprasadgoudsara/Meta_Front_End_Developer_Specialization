@@ -102,20 +102,105 @@ Q. You want to add an image to your webpage. What should you add within the imag
 
 USE HTML TO WORK WITH DATA IN TABLES
 The best way to add information like a price list is by using an HTML table. It might be familiar with columns and rows in spreadsheets software. HTML tables look similar and allow you to neatly organize content in rows and columns. Websites almost always have information that needs to be organized in a way that makes it quick and easy to read. 
-- Inside of it I add to table 'row' tags or tea or tags, as they're commonly referred to. This will create a row for each of the dishes. Now I need to add table data tags or td tags so that I can include the prices. Table data tags define the contents of table cells. So I need to add two of those inside each row, one for the dish and one for its price.
+- I add the 'table' tag(<table>). 
+- Inside of it I add to table 'row' tags (<tr> tag). This will create a row for each of the dishes. 
+- Now I need to add table data tags(<td> tag) so that I can include the prices. Table data tags define the contents of table cells. So I need to add two of those inside each row, one for the dish and one for its price.
+- I'm going to add headers to the columns now. To do this, I add a new row to the top of the table with the table row tag. Then use the table header tag(<th> tag) for the heading cells. I need to add two of those.              
 
-In the first row, I type Falafel inside the first table data tag. In the second table data tag, I add the price, let's say $10. I do the same with the second row. I type Pasta Salad inside the first table data tag, and a price of $12 inside the second table data tag. Now I will save the file and open it in my web browser.
+Q. You are developing a website for a shoe shop. In order to add a table to your website, which tags can you use? 
+- The table tag: <table> </table> - (Correct) - The table tag is the first tag that you need to insert in order to add a table to a webpage. 
+- The table data tags: <td> </td> - (Correct) - You need to add table data tags for each cell in each row.
+- The table header tags: <th> </th> - (Correct) - You use the table header tags to add headings to the table which makes it easier to understand the data.
+- The table row tag: <tr> </tr> - (Correct) - You need to add table row tags for each line of information in your table. 
+- The table column tag: <tc> </tc> - InCorrect
 
-Great. The prices display at the bottom of the webpage. However, the table is not displayed like a regular table at the moment, but I will style it soon. To make it more clear for my users, I'm going to add headers to the columns now. To do this, I add a new row to the top of the table with the table row tag.
 
-Then use the table header tag or th tag for the heading cells. I need to add two table header tags. I type dish in the first column heading, and price in the second heading. I save the HTML and refresh it again to check the update in the browser.
 
-The information that's presented much clearer now that the columns have headings, but it is not displayed like a table, yet. I will add a bit of CSS to improve the styling of the table. Don't worry about the details just yet. But I would like to add a little bit of magic now to get you excited about styling. I will add a style tag. I will add a one pixel border to the table.
 
-Let's save the file again and open it in the browser.
-
-Now the table has a border around all the cells. This is just a quick method of styling a table. Later you will learn how to do this using best practices with CSS. Congratulations. You now know how to add tables to HTML files. I use tables extensively and I am sure you will too.
 WHAT ARE FORMS?
+You can use forms practically every day on the internet.
+ - enter your credit card details during checkout. But forms are not limited to e-commerce.  
+ - When you log into your favorite website. 
+
+how forms works: when a user enters data on a website an HTML form submits an HTTP request containing the data to the server. 
+
+how to create a form? 
+- You define forms with the html form tags(<form></form> tag). 
+- Forms also have an optional form attribute called 'action'. 
+       - Actions specifies the URL or path that the form should submit the request to. 
+       - <form action="/registration" method="POST"> </form>
+       - When the 'action' attribute is not specified, it submits the request to the same path as the current web page. 
+- There is also the 'FORM method'.
+       - with the FORM method you can specify the HTTP method to use for the HTTP request. 
+       - There are two HTTP methods to submit the form data, 'GET' and 'POST'. 
+       - The GET HTTP method retrieves information from the server. 
+       - The POST HTTP method sends data to the server. 
+       - When a user submits a form, one of these HTTP methods is used. 
+
+- Text, password, checkbox, radio, textarea, email and number are all types of input. 
+
+how to add fields that the user can enter data into:
+- For a simple text field (eg: username). The fields in a form are specified by 'input' tags. 'input' tag does not need a closing tag. But if I want to, I could close the tag by adding a forward slash before the end of the input tag. When I use the text input type, it displays a text field on the web page. 
+       TEXT field:
+       - <form action="/registration" method="POST"> 
+              <input type="text" name="username">
+         </form>
+- But a text box on its own isn't very user friendly, so I will now add a label above it. By adding the 'label' tag, the form will now display the word 'user name' above the input field. 
+       - <form action="/registration" method="POST"> 
+              <label for="username">Username:</label><br>
+              <input type="text" name="username"/>
+         </form>
+- For a password field. In this case I won't use the text input type since I don't want the password to be visible. HTML has an input type specific for passwords that will mask the user's input data. The user name will be visible and the password will be masked. 
+       - <form action="/registration" method="POST"> 
+              <label for="username">Username:</label><br>
+              <input type="text" name="username"/>
+              <label for="password">Password:</label><br>
+              <input type="password"/>
+         </form>
+- For a button so the user can submit the form. So I used the input type, submit. When the user clicks the submit button, the HTTP request containing the form content will be sent to the web server. In summary, you use the form tag at the start of a form where after you indicate the method that should be used. 
+       - <form action="/registration" method="POST"> 
+              <label for="username">Username:</label><br>
+              <input type="text" name="username"/>
+              <label for="password">Password:</label><br>
+              <input type="password"/>
+              <input type="submit"/>
+         </form>
+- You can create labels for input types with the label tag, you use the text input type for a text input like a user name. For a password, you use the password input type. To add a submit button to a form, you use the submit input type. 
+
+There are many different input types available. 
+- Checkbox: To do this, you use the checkbooks input type. Each box can be checked or unchecked. You use the name and value attributes to configure how the data is sent to the server.
+       - <form> 
+              <input type="checkbox" name="dog" value="Dog"/>
+              <input type="checkbox" name="cat" value="Cat"/>
+         </form>
+- Radio buttons on the other hand are like checkboxes except only one button can be checked in on the group. Checking one radio button will uncheck all the other radio buttons. 
+       - <form> 
+              <input type="radio" name="right" value="Right"/>
+              <label for="right">I am right handed</label><br>
+              <input type="radio" name="left" value="Left"/>
+              <label for="left">I am left handed</label><br>
+         </form>
+- There are also other types of inputs such as 
+       - the number, 
+       - email and 
+       - file upload types. 
+              - <form> 
+                     <input type="number" name="age" />
+                     <input type="email" name="email" />
+                     <input type="file" name="file" />
+                </form>
+- However, some input fields do not use the input tags. For instance the 'multi line' text field. The text input type that I showed you earlier is only for single line text content. To allow users to enter multiple lines of text, I need to use the text area tag instead of text input type. 
+       - <form> 
+              <textarea name="multiline" rows="5"></textarea>
+         </form>
+- Another type of input that does not use the input tag is a drop down list which contains items that the user can select. This time, you use the select tag and for the items on the list you use option tags.
+       - <form> 
+              <select name="food">
+                     <option value="chocolate">Chocolate</option>
+                     <option value="ice_cream">Ice Cream</option>
+              </select>
+         </form>
+
 INTRODUCTION TO DOM
 WEB ACCESSIBILITYWeb Accessibility
 QUIZ - Getting started with HTML:
