@@ -321,25 +321,25 @@ Quiz:
 - IntelliSense - Correct
 
 Summary:
-How the web works and core internet technologies:
+How the web works:
 - webpages
+  - websites and webpages
+  - HTML and CSS
+  - JavaScript
 - webservers
+  - Data Center
+  - Wbserver hardware and software
+  - HTTP requests
 - webbrowsers
-- differentiate between a website and a webpage
-- HTML and CSS
-- JavaScript
-- Data Center
-- Wbserver hardware and software
-- HTTP requests
-- Webbrowser
-- Browser/Server Interaction
-- Request-Response cycle
-- IP address and data transfer
-- HTTP
-- HTML, CSS, JavaScript interaction
-- webpage, website and webapp
-- Frontend and backend
-- Browser devloper tools
+  - Browser/Server Interaction
+  - Request-Response cycle
+Core internet technologies
+  - IP address and data transfer
+  - HTTP
+  - HTML, CSS, JavaScript interaction
+  - webpage, website and webapp
+  - Frontend and backend
+  - Browser devloper tools
 - Libraries and Frameworks
 - API and its use in webdevlopment
 - Purpose and benefits of IDE
