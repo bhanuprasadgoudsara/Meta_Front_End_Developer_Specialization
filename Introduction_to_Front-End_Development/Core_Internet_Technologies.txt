@@ -199,5 +199,29 @@ Network Tab: used for inspecting timeline details of http request and responses 
 Performance Tab: shows what the webbrowser is doing over time. it is useful when your webapplication is running slow because you can pinpoint the function that is taking the most time.
 Memory Tab: displays parts of our code that are consuming the most resources.
 Elements Tab: Used to inpect the documents, HTML elements and their properties. When we hover over the elements in elements tab, it highlights that element in the browser pane. One the right side of the panel, there are tabs for inspecting the details of the elements further. This panel shows us what CSS is applied to an element and the result of the element displayed in the browser. When you click on an HTML element, then the information for that element will appear in the tab.
+If you double click the HTML element, you can edit it in the webbrowser. But this does not change the content on web server. It only updates it for me while the webpage is open. If we open the webpage again or refresh the webpage, it will reset.
+The Web browser developer tools are a valuable part of your development toolkit to help you investigate and diagnose problems.
 
-
+Frameworks and Libraries:
+Used to Save Time and build fast. Built problem have already been solved, many key development processes and they contained in frameworks and libraries that are used everyday in software and application devlopment. These might be open-source (available to everyone to modify and build from). They might be propritery, once that are licensed or developed internally.
+Libraries are reusable pieces of code to save time. they are purpose built to provide a spcific functionality.
+Frameworks provide a structure for developers to build with. Frameworks acts a struture where the developer provides their own code that framework interacts with.
+Examples:
+- Express
+- Django
+- ASP.NET
+- Rails
+- Spring
+Frameworks handle functionality that is common to all webapplications such as receiving HTTP requests and sending HTTP responses. And then developer adds their own code that implments the functionality of the web application.
+Most Frameworks use many libraries, the libraries that framework uses can be used for your application, if you wish, you can use other libraries.
+Frameworks are considerd opinionated and libraries are considered unopinionated.
+The opinionatedness will vary between frameworks. but by defintion, it will always be opinionated than a library. 
+Frameworks define the libraries, flow and control of the application. Wheras with libraries, those are ft to the developers to decide.
+Framework contains Library
+Framework call your application
+Your application calls library
+Advantages of Frameworks:
+- Timesaving, reduce development time
+- enforce a STRUCTURE on how code is written
+- have many best practices already in place and contain most of what is needed.
+Disadvantages of Frameworks:
