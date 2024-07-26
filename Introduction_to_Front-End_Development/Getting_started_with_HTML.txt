@@ -78,26 +78,13 @@ Comments: The comment will not be displayed in the web browser. If you want to l
 LINKING DOCUMENTS:
 - Websites consists of multiple webpages linked together. To link pages together, You use the 'anchor tag'. Anchor tag create hyperlinks(links). 
 - In this video, you will learn how to link different web pages together to create your own website. In my project folder. I now create a second webpage for Little Lemon that will contain the address of the restaurants.
+Q. You are creating a website and you want to add a link to the about.html page on your home.html page. What is the correct notation to create this link?   
+- <a href = “about.html”>About</a> - Correct
+- <a> about.html </a>
+- <a> href = about.html </a> 
+- <a href = “home.html”>About</a>
 
-I right click in the explorer panel to create a new file and name it location.html.
-
-I use the same file structure created in my index to HTML email but add new content.
-
-I add a new H one tag for the heading and type our location.
-
-Next I add a paragraph tag and insert the address 123 Rome Road, Main Districts capital city.
-
-I press control and S to save the file or command and S on Mac. Now that my new file with the restaurant location is created. Let's navigate back to index.html to add a link from there to location.html. Below the last paragraph tag I add the anchor or a tag followed by the href tribute or hypertext reference.
-
-I typed the file name, location.html so that my index.html file will link to it. Within a tag I can also add a descriptive text that is displayed as a link name on my web page. So I type our location. The text our location will now display on the web page in the browser as a clickable link.
-
-Let's test see if it works. I saved the file to update it with the changes and open it in my web browser by right clicking on the index.html file and selecting reveal in file Explorer.
-
-If you're not on Windows, this may be called reveal in finder or revealing file browser.
-
-I then double click on the index file.
-
-The words are location are displayed in blue by the web browser, success. If I click on the blue link, the browser opens the location.html file. You can now link different HTML files together to create your website. Best of luck.
+- I typed the file name, location.html so that my index.html file will link to it. Within a tag I can also add a descriptive text that is displayed as a link name on my web page. So I type our location. The text our location will now display on the web page in the browser as a clickable link. The words are location are displayed in blue by the web browser. If I click on the blue link, the browser opens the location.html file. You can now link different HTML files together to create your website.
 
 ADDING IMAGES TO A WEBPAGE WITH HTML:
 WHAT ARE FORMS?
