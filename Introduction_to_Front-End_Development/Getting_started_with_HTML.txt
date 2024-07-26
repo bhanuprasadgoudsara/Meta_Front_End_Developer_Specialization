@@ -3,7 +3,9 @@ HTML: HyperText Markup Language
 HyperText: The Text which contains links to other text.
 MarkUp: Tags and Elemnts used within a document
 Extension: .html
-HTML is text file with specific structure that consists of  different components such as tags and elements.
+HTML is text file with specific structure that consists of  different components such as tags and elements and describe to the webpage what to display.
+
+Difference between HTML Tags and HTML Elements:
 Each HTML element consists of an opening tag enclosed in angled brackets (Ex: <p>). most elements paired with a closing tag which has a forward slash off to the left angle bracket(Ex: </p>). 
 
 HTML usually have content inside them.
@@ -27,10 +29,21 @@ Elements can also be empty or self-closing (do not have closing HTML tag)
 Ex:    HTML synax: <p>This is a <br>paragraph</p> (line break tag)
        index.html: This is a 
                    paragraph  
+At the end of self-closing tag, you can close the right angle bracket by '/' like this '<br/>'
 
-Difference between HTML Tags and HTML Elements:
+HTML standards:
+HTML specification: The rules and structure for elements and tags.
+The HTML specification is maintained by the "World Wide Web Consortium" (W3C).
+Whenever the HTML specification changes, a new version of HTML is standardized.
+The current version is 'HTML 5'.
 
-HTML Documents
+HTML syntax: <img src="icon.png"/>
+
+
+HTML Documents: A text document containing simple webpage formatting.
+Here we are creating a very simple webpage for restaurant called 'Little Lemon'.
+We dont need the wb to view the HTML document.
+
 Simple HTML Tags
 Linking documnets
 Adding images to a webpage with HTML
