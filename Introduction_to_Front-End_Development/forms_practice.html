@@ -4,30 +4,37 @@
   <body>
     <form action="/registration" method="POST">
       <label for="username">Username:</label><br>
-      <input type="text" name="username" />
-      <label for="username">Username:</label><br>
-      <input type="password" />
+      <input type="text" name="username" /><br>
+      <label for="username">Password:</label><br>
+      <input type="password" /><br>
       <input type="submit" />
     </form>
     <form>
       <input type="checkbox" name="dog" value="Dog" />
+      <label for="dog">Dog</label><br>
       <input type="checkbox" name="cat" value="Cat" />
+      <label for="cat">Cat</label>
     </form>
     <form>
       <input type="radio" name="right" value="Right" />
       <label for="right">I am right handed</label><br/>
       <input type="radio" name="left" value="Left" />
-      <label for="left">I am Left handed</label><br/>
+      <label for="left">I am Left handed</label>
     </form>
     <form>
-      <input type="number" name="age" />
-      <input type="email" name="email" />
+      <label for="age">Age:</label><br/>
+      <input type="number" name="age" /><br/>
+      <label for="email">E-mail:</label><br/>
+      <input type="email" name="email" /><br/>
+      <label for="file">Upload File:</label><br/>
       <input type="file" name="file" />
     </form>
     <form>
+      <label for="multiline">Multi-Line Text Area:</label><br/>
       <textarea name="multiline" rows="5"></textarea>
     </form>
     <form>
+      <label for="food">Select a Food:</label>
       <select name="food">
         <option value="chocolate">Chocolate</option>
         <option value="ice_cream">Ice Cream</option>
