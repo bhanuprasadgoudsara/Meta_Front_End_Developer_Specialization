@@ -1,4 +1,4 @@
-What is HTML ?
+WHAT IS HTML ?
 HTML: HyperText Markup Language
 HyperText: The Text which contains links to other text.
 MarkUp: Tags and Elemnts used within a document
@@ -40,7 +40,7 @@ The current version is 'HTML 5'.
 HTML syntax: <img src="icon.png"/>
 
 
-HTML Documents: A text document containing simple webpage formatting. We dont need the web to view the HTML document. They don't have to be hosted on a web server for you to view them in your web browser. You can save HTML files on your computer and viewed them locally with your web browser. 
+HTML DOCUMENTS: A text document containing simple webpage formatting. We dont need the web to view the HTML document. They don't have to be hosted on a web server for you to view them in your web browser. You can save HTML files on your computer and viewed them locally with your web browser. 
 
 Here we are creating a very simple webpage for restaurant called 'Little Lemon'.
 To create a HTML file and Visual Studio Code. Right-click in the 'Explorer' panel and select 'New File'. I'll name it index.html. 
@@ -56,7 +56,7 @@ Procedure:
 - In order to make sure everything is correct, I open my index.html file in the browser to check my webpage. But first I need to save the file by pressing the keys Control and S or if you're on a Mac, Command and S. Now, I right-click on my index.html file in the explorer panel and select Reveal in File Explorer. If you're not using Windows, this may be called revealing finder or reveal in file browser. Now the file browser opens and lists the file. I double-click on index.html and it opens in the web browser. Great, it's all there. 
 - The title that displays in the browser tab matches the title that I added to the head section and the content is displayed in the browser window but it is still a bit empty. I go back to Visual Studio Code and add a short description for each dish. I do this by adding a paragraph tag below each subheading H2.
 
-Simple HTML Tags:
+SIMPL HTML TAGS:
 There are many tags available in HTML. Here you will learn about common tags that you'll use as a developer.
 Headings: allow you to display titles and subtitles on your webpage.
 Paragraphs: contain text content.
@@ -75,9 +75,32 @@ Div tags: A <div> tag defines a content division in a HTML document. It acts as 
 Comments: The comment will not be displayed in the web browser. If you want to leave a comment in the code for other developers, it can be added as: <!-- This is a comment -->  
 
 
-Linking documnets
-Adding images to a webpage with HTML
-What are forms?
-Introduction to DOM
-Web Accessibility
-Quiz - Getting started with HTML:
+LINKING DOCUMENTS:
+- Websites consists of multiple webpages linked together. To link pages together, You use the 'anchor tag'. Anchor tag create hyperlinks(links). 
+- In this video, you will learn how to link different web pages together to create your own website. In my project folder. I now create a second webpage for Little Lemon that will contain the address of the restaurants.
+
+I right click in the explorer panel to create a new file and name it location.html.
+
+I use the same file structure created in my index to HTML email but add new content.
+
+I add a new H one tag for the heading and type our location.
+
+Next I add a paragraph tag and insert the address 123 Rome Road, Main Districts capital city.
+
+I press control and S to save the file or command and S on Mac. Now that my new file with the restaurant location is created. Let's navigate back to index.html to add a link from there to location.html. Below the last paragraph tag I add the anchor or a tag followed by the href tribute or hypertext reference.
+
+I typed the file name, location.html so that my index.html file will link to it. Within a tag I can also add a descriptive text that is displayed as a link name on my web page. So I type our location. The text our location will now display on the web page in the browser as a clickable link.
+
+Let's test see if it works. I saved the file to update it with the changes and open it in my web browser by right clicking on the index.html file and selecting reveal in file Explorer.
+
+If you're not on Windows, this may be called reveal in finder or revealing file browser.
+
+I then double click on the index file.
+
+The words are location are displayed in blue by the web browser, success. If I click on the blue link, the browser opens the location.html file. You can now link different HTML files together to create your website. Best of luck.
+
+ADDING IMAGES TO A WEBPAGE WITH HTML:
+WHAT ARE FORMS?
+INTRODUCTION TO DOM
+WEB ACCESSIBILITYWeb Accessibility
+QUIZ - Getting started with HTML:
