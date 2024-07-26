@@ -1,1 +1,8 @@
-
+Selecting and Styling
+Different types of selectors
+Text and color in CSS
+Box model Introduction
+Document flow block vs line
+Alignment basics
+Styling a Page
+Additional resources
