@@ -78,6 +78,7 @@ Comments: The comment will not be displayed in the web browser. If you want to l
 LINKING DOCUMENTS:
 - Websites consists of multiple webpages linked together. To link pages together, You use the 'anchor tag'. Anchor tag create hyperlinks(links). 
 - In this video, you will learn how to link different web pages together to create your own website. In my project folder. I now create a second webpage for Little Lemon that will contain the address of the restaurants.
+
 Q. You are creating a website and you want to add a link to the about.html page on your home.html page. What is the correct notation to create this link?   
 - <a href = “about.html”>About</a> - Correct
 - <a> about.html </a>
@@ -86,7 +87,24 @@ Q. You are creating a website and you want to add a link to the about.html page 
 
 - I typed the file name, location.html so that my index.html file will link to it. Within a tag I can also add a descriptive text that is displayed as a link name on my web page. So I type our location. The text our location will now display on the web page in the browser as a clickable link. The words are location are displayed in blue by the web browser. If I click on the blue link, the browser opens the location.html file. You can now link different HTML files together to create your website.
 
-ADDING IMAGES TO A WEBPAGE WITH HTML:
+ADDING IMAGES TO A WEBPAGE WITH HTML:              
+A website without pictures wouldn't provide a very good user experience. 
+how to add images to HTML documents using the image (IMG tag). 
+- Similar to what I did with document links, I have to specify the link to the image file using the image tag. Images are not inserted into web pages. Instead we use image tags in HTML to link to image files. The image tag then creates a placeholder for the image on the web page. To add an image tag, I type img and inside it I add the src attribute or source attribute as it is known. I type falafel.jpeg As a source for one image, And salad.jpeg,
+
+As a source for the other image. Let's save the file and open it in the web browser.
+
+The images are displayed but they are way too big.
+
+Luckily there are several ways to set the size of an image but in this video I will just demonstrate how to do this in HTML. Right after the sourcing in the image tag, you can specify the dimensions of an image. I first add the width attribute, And set it to 240 pixels. Then I add the height attribute and set it to 135 pixels. I'll set the other image to the same dimensions.
+
+Let's save and view it in the browser again.
+
+Much better, the images are smaller now. But there is one important attribute that you should always include with image tags. It is good practice to add a short description for images. It helps improve accessibility for people using assistive technologies and it can also improve search engine rankings. You can add image descriptions with the alternative text attribute also known as the altar tribute. Still within the image tag after the dimensions attributes you can add the altar tribute.
+
+I will type a short description, A falafel and for the other image I will type, A pasta salad. I will save the Html file again and open it in the web browser.
+
+The all text is not displayed anywhere on the site but will be read by assistive technologies such as screen readers. Screen readers and other accessibility tools use the altar tribute to provide information to their users. Now you know how to add images to websites with the image tag. Little Lemon website is now ready for everyone who uses the web. Have fun while you make your sites colorful by adding images
 WHAT ARE FORMS?
 INTRODUCTION TO DOM
 WEB ACCESSIBILITYWeb Accessibility
