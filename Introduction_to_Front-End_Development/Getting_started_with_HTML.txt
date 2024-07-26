@@ -202,5 +202,89 @@ There are many different input types available.
          </form>
 
 INTRODUCTION TO DOM
-WEB ACCESSIBILITYWeb Accessibility
+- In order to allow users to do these things (to log in like posts or get notifications for new messages), they need to be able to interact with objects on the page such as the reaction icons or the comment button.
+- An HTML document must be represented in a certain way, so that JavaScript code can query and update it, to do this we use the document object model (DOM). 
+
+What the DOM ? 
+When your web browser receives an HTML page, it constructs a DOM to represent it. It is simply a tree, structure or model of the objects in your HTML file. To understand the DOM, I want you to think of a simple HTML page, remember that an HTML document has opening and closing tags for the document and the head. And inside the head tags you have title tags, then you have the body and inside the body there might be elements such as div tags.
+
+How it is created ?
+The DOM has a series of objects each representing a single HTML element. At the root of the DOM is the 'html' object and it contains the head and body object. From there, the head object houses the title object and the title object contains its text object. The body object contains the two div objects, the first div houses, the h1 object which again houses its text object. The second div object contains the paragraph object which contains its text object. In summary, all the elements in the HTML file are represented as objects in the document object model. I just took you through a very simple webpage, webpages typically have hundreds of elements.
+
+How JavaScript interacts with the DOM to make sites dynamic ?
+You as a developer can use JavaScript to access and modify the DOM to make your webpages dynamic. In fact, in a later course you will learn how to access and modify the structure of the DOM and its elements in different ways. 
+
+Common DOM and JavaScript uses:
+- For each element, you can access the HTML attributes and content, this means you can update the existing content that is displayed in the web browser. The DOM allows you to update and delete existing elements on the web page.
+- You can even add DOM objects to dynamically add new HTML content to a live web page. 
+- DOM objects can also be deleted which will remove the corresponding HTML displayed in the browser. 
+- Another major use of JavaScript and the DOM is to animate the HTML elements. This can be quite complex depending on the animation but there are many libraries available that aim to simplify this. 
+
+Many JavaScript libraries and frameworks rely on the DOM, one of these libraries is the react library. 
+
+
+WEB ACCESSIBILITY:
+- As a web developer you should try to ensure that everyone can access and enjoy the internet. 
+- You need to build a website in a certain way to improve accessibility. 
+- When the Web accessibility Initiative (WAI) was launched in 1997, The creator of the World Wide Web. Sir Tim Berners lee said "The power of the Web is in its universality". 'Access by everyone regardless of disability' is an essential aspect. 
+- Web accessibility aims to allow people with disabilities to understand, navigate and interact with websites. 
+- A common misunderstanding is that it refers to visual disabilities but in fact it includes all disabilities that affect interaction with websites such as 
+       - audio and visual disabilities, 
+       - cognitive and neurological disabilities and 
+       - physical and speech disabilities. 
+- The W3C. Web accessibility initiative developed specifications and supporting resources for accessibility. These are considered "International standards" for web accessibility. In fact web accessibility is becoming a requirement in many industries.
+- In 2016, The European Union approved the "web accessibility directive" which requires websites and mobile applications of public section bodies to be accessible to those with disabilities. 
+
+Let's explore some examples of how accessibility is provided to those with different disabilities. 
+ - People living with disabilities often use assistive technologies to aid them in browsing the web 
+ - Screen reader software can read the content of websites and everything that is happening on the device. 
+ - Screen readers are used not only by blind and vision impaired users but also by those with reading or learning difficulties.
+ - Speech recognition software can turn spoken words into computer commands or dictate inputting text. 
+ - This is useful for people who may not be able to use a mouse or keyboard due to physical or neurological disabilities. 
+ - Subtitles and video scripts and videos provide assistance to those with audio and visual disabilities. 
+
+Q. Which of the following technologies are examples of assistive technologies? Select all that apply.    
+- Microphones
+- Screen reader software - Correct
+- Subtitles in videos - Correct
+- Speakers
+- Speech recognition software - Correct
+
+There are many steps that you can take to improve accessibility. 
+- It is good practice to think of accessibility from the beginning of a project, it is a lot harder to rework the project to be accessible later on. 
+- If you use the correct html structure and appropriate elements as a foundation, it will greatly improve accessibility. In this course you will learn to structure your html properly and follow best practices to support assistive technologies for example having text that is not contained within proper tags like paragraph or heading tags makes it harder for assistive technologies to interact with the content. 
+- Similarly using multiple line breaks to break up text and add space also presents barriers to accessibility. 
+These are just simple examples to improve web accessibility. However, in the future you'll probably develop very complex user interfaces and to make them accessible may not be as straightforward as just having correct html. 
+
+Fortunately one of the tasks of the WAI is to define the Accessible Rich Internet Application(ARIA) Specification. The ARIA specification outlines different techniques to improve accessibility for complex web apps. 
+
+Now, you know about different assistive technologies and that you should use the correct html structure and appropriate elements to improve accessibility.
+
 QUIZ - Getting started with HTML:
+1. An HTML document begins with ______________.
+- The html tag 
+- The DOCTYPE declaration - Correct
+- The head tag
+- The body tag
+
+2. To display a link to another HTML document, the ______________ tag is used.
+- link
+- html
+- anchor (a) - Correct
+- img
+
+3. To add an image to a webpage, the ______________ tag is used.
+- img - Correct
+- image
+- anchor (a)
+- link
+
+4. To represent the HTML document in JavaScript, the browser builds  _____________.
+- an HTML Element Model
+- an HTML Script
+- Document Object Model - Correct
+
+5. Which of the following answer choices improves web accessibility for people with disabilities? Select all that apply.
+- Correct HTML structure - (Correct) - Ensuring correct HTML structure will help assistive technologies to describe, navigate and interact with the content.
+- Accessible Rich Internet Application (ARIA) techniques - (Correct) - ARIA techniques improve accessibility for complex web applications.
+- Appropriate use of HTML elements - (Correct) - Using HTML elements appropriately such as using paragraph tags for text and button tags for buttons will help assistive technologies to describe, navigate and interact with the content.
