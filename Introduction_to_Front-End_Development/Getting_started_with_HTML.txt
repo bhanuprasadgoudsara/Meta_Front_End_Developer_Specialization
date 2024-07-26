@@ -1,1 +1,40 @@
+What is HTML ?
+HTML: HyperText Markup Language
+HyperText: The Text which contains links to other text.
+MarkUp: Tags and Elemnts used within a document
+Extension: .html
+HTML is text file with specific structure that consists of  different components such as tags and elements.
+Each HTML element consists of an opening tag enclosed in angled brackets (Ex: <p>). most elements paired with a closing tag which has a forward slash off to the left angle bracket(Ex: </p>). 
 
+HTML usually have content inside them.
+Ex:    HTML synax: <p>This is a paragraph</p>
+       index.html: This is a paragraph 
+
+HTML elements can also contains other elements.
+Ex:     HTML synax: 
+          <p>
+              This is a <i>paragraph</i>
+          </p>
+        index.html: This is a paragraph(italic)
+
+You want to insert a paragraph on your website. Choose the correct format for the opening and closing paragraph tags:      
+- Opening tag: <p/> Closing tag: </p> 
+- Opening tag: <p> Closing tag: <p>
+- Opening tag: <p> Closing tag: <p/> 
+- Opening tag: <p> Closing tag: </p> - Correct
+
+Elements can also be empty or self-closing (do not have closing HTML tag)
+Ex:    HTML synax: <p>This is a <br>paragraph</p> (line break tag)
+       index.html: This is a 
+                   paragraph  
+
+Difference between HTML Tags and HTML Elements:
+
+HTML Documents
+Simple HTML Tags
+Linking documnets
+Adding images to a webpage with HTML
+What are forms?
+Introduction to DOM
+Web Accessibility
+Quiz - Getting started with HTML:
