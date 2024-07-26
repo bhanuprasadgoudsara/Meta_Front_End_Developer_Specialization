@@ -319,3 +319,27 @@ Quiz:
 - Autocomplete - Correct
 - Autodelete
 - IntelliSense - Correct
+
+Summary:
+How the web works and core internet technologies:
+- webpages
+- webservers
+- webbrowsers
+- differentiate between a website and a webpage
+- HTML and CSS
+- JavaScript
+- Data Center
+- Wbserver hardware and software
+- HTTP requests
+- Webbrowser
+- Browser/Server Interaction
+- Request-Response cycle
+- IP address and data transfer
+- HTTP
+- HTML, CSS, JavaScript interaction
+- webpage, website and webapp
+- Frontend and backend
+- Browser devloper tools
+- Libraries and Frameworks
+- API and its use in webdevlopment
+- Purpose and benefits of IDE
