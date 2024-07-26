@@ -56,7 +56,25 @@ Procedure:
 - In order to make sure everything is correct, I open my index.html file in the browser to check my webpage. But first I need to save the file by pressing the keys Control and S or if you're on a Mac, Command and S. Now, I right-click on my index.html file in the explorer panel and select Reveal in File Explorer. If you're not using Windows, this may be called revealing finder or reveal in file browser. Now the file browser opens and lists the file. I double-click on index.html and it opens in the web browser. Great, it's all there. 
 - The title that displays in the browser tab matches the title that I added to the head section and the content is displayed in the browser window but it is still a bit empty. I go back to Visual Studio Code and add a short description for each dish. I do this by adding a paragraph tag below each subheading H2.
 
-Simple HTML Tags
+Simple HTML Tags:
+There are many tags available in HTML. Here you will learn about common tags that you'll use as a developer.
+Headings: allow you to display titles and subtitles on your webpage.
+Paragraphs: contain text content.
+Note: Putting content on a new line is ignored by the web browser.
+Line Breaks: As you've learned, line breaks in the paragraph tag line are ignored by HTML. Instead, they must be specified using the <br> tag. The <br> tag does not need a closing tag.
+Strong: Strong tags can be used to indicate that a range of text has importance.
+Bold: Bold tags can be used to draw the reader's attention to a range of text.
+Bold tags should be used to draw attention but not to indicate that something is more important.
+Emphasis: Emphasis tags can be used to add emphasis to text.
+Italics: Italics tags can be used to offset a range of text.
+Emphasis vs. Italics: By default both tags will have the same visual effect in the web browser. The only difference is the meaning. Emphasis tags stress the text contained in them. Italics represent off-set text and should be used for technical terms, titles, a thought or a phrase from another language. Screen readers will not announce any difference if an italics tag is used.
+Lists: You can add lists to your web pages. There are two types of lists in HTML.
+- Lists can be unordered using the <ul> tag. List items are specified using the <li> tag.
+- Lists can also be ordered using the <ol> tag. Again, list items are specified using the <li> tag.
+Div tags: A <div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS. It can be nested inside other elements. Div elements are an important part of building webpages.
+Comments: The comment will not be displayed in the web browser. If you want to leave a comment in the code for other developers, it can be added as: <!-- This is a comment -->  
+
+
 Linking documnets
 Adding images to a webpage with HTML
 What are forms?
