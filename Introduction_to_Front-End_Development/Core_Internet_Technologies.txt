@@ -225,3 +225,97 @@ Advantages of Frameworks:
 - enforce a STRUCTURE on how code is written
 - have many best practices already in place and contain most of what is needed.
 Disadvantages of Frameworks:
+1. Structure Contraints:
+- Sometimes you may find that the way you need to code something doesn't fit into the structure of the framework. 
+2. Compatability:
+- Other times you may find that some of the libraries the framework uses may conflict with a library that you are required to use and cause compatibility issues. 
+
+Advantages of Libraries:
+- They can be replaced as needed, if a new updated and better liraries released. and it is much easier than replacing the framework.
+
+Disadvantages of Libraries:
+1. Selecting Library Set:
+- If an application is built without a framework, the developer will need to decide on the set of libraries they wish to use to achieve the functionality they must deliver. 
+2. Compatability:
+- Other times you may find that some of the libraries the framework uses may conflict with a library that you are required to use and cause compatibility issues. 
+
+Frameworks and Libraries:
+- to reuse existing web app functions. 
+- This can result in faster development, fewer errors, and more time for you to spend on the essential features of your application. 
+- Instead of reinventing the wheel, you can use frameworks and libraries that are designed specifically to help your web app development processes.
+
+APIs and Services:
+As a web developer, APIs are developer friendly, easily accessible and a very valuable and useful development tool.
+API: Application Programming Interface.
+An API is a service, application or interface offering advanced functionality with simple syntax.
+An API is a set of fucntions and procedures for creating applications that access the fetures or data of an operating system, application or other service.
+As a webdeveloper, a lot of day to day job involves workigng with APIs.
+Some of the common APIs that web developers work with includes:
+- Browser API or Web API
+- REST API
+- Sensor based API
+In software development, APIs bridge between different components or systems. This earns the name like gateway or middleware.
+APIs are also known as gateways or middleware because they act as a bridge between systems.
+Examples of API use cases:
+
+Browser API or Web API:
+- bulit into web browsers
+- They extend the functionality of the browser by adding new services and 
+- are designed to simplify complex functions and 
+- provide easy syntax for building advanced features.
+Ex: 
+  1. DOM API: turns the html document into a tree of nodes that are represented as JavaScript objects. 
+  2. Geolocation API: returns coordinates of where the browser is located.
+  3. Fetch API: for fetching data
+  4. Canvas API: for graphics
+  5. History API: for keeping history
+  6. Web Storage API: for client side storage 
+
+RESTful API or REST API: (REpresentational State Transfer)
+REST is a set of principles that help build highly efficient API's. This kind of API provides data for popular web and mobile apps. These are also called 'web servers'. One of the main responsibilities of these kinds of API's is sending and receiving data to and from a centralized database. We can query our own REST API or third party ones. Browser <==> REST API <==> Database
+
+Sensor-Based API: 
+This is what IOT is based on.These are actual physical senses that are interconnected with each other. The sensors can communicate through API and track and respond to physical data. Ex: Philips Hue smart lights and node bots.
+
+Fortunately, for web developers the most common data API is a RESTtful API which as you've learned is a web server that provides responses to requests. These API web servers are designed to provide the data backbone for a web client like a web page or mobile app. This means that these API's must be able to accomplish things like getting data(GET), creating data(POST), updating data(PUT) and deleting data(DELETE). API issues, REST principles and good design practices to create discoverable interfaces. This helps us get the exact response expected.  
+
+How APIs exactly work ?
+These API's use ENDPOINTS to specify how different resources can be accessed. The endpoint is built into the URL when accessing the API. For example, In "http://example.com/?t=info",  the term or extension "t=info" is called ENDPOINT. Once the endpoint is hit, the API performs whatever service side processing is needed to build the response. 
+
+Two common forms of response are, 
+- full web pages and 
+- data form based on JavaScript called 'JSON'. 
+
+Integrated Development Environment (IDE):
+IDE is software for building applications. An IDE is just like a text editor except instead of writing documents you are writing code. There are many IDEs available, some are specific to one programming language, while others support many languages in one IDE.
+some common IDE features:
+- SYNTAX HIGHLIGHTING: special keywords of the programming language are highlighted in different colors so that the developer can quickly differentiate these keywords from other texts
+- ERROR HIGHLIGHTING: Just like checking spelling in a text document, IDEs can highlight mistakes you make in your programming code. 
+- AUTO-COMPLETE: Since programming languages have special keywords, IDEs can offer suggestions to autocomplete words as you start typing them. 
+- INTLLISENSE: make IEDs very smart and even able to understand your code. They can detect variables and functions and offer them as suggestions during autocomplete.
+- REFACTORING: changing the structure of the code without changing the functionality. Since IDEs understand your code, they can help you if you need to change it. Doing this manually is very time consuming and prone to error. If you mistyped the new function name in one place, the application will break. Since the IDE understand your code, it can assist with refactoring and automatically update the function name across all files. 
+Select a function -> Rename Symbol -> updates all references of that function name.
+IDEs come with a lot of other features to help investigate bugs and collaborate with other developers. Many even allow you to extend their functionality using plugins and extensions.
+
+Quiz:
+1. Which of the following can be done using the developer tools in your browser? 
+- Inspect the HTML elements of a web page. - Correct
+- Check JavaScript error logs. - Correct
+- Inspect a timeline of HTTP requests and responses. - Correct
+- Upload images to the web server
+- Inspect the performance and memory usage of a webpage. - Correct
+
+2. In software development, a library provides _________________________.
+- Reusable pieces of code that can be used by your application. - Correct
+- A structure for developers to build an application with.
+
+3. In software development, an API is _________________________.
+- a set of functions that an application component or service can provide. - Correct
+- a text editor to write code with. 
+
+4.Which of the following are benefits of using an Integrated Development Environment (IDE) such as Visual Studio Code? Select all that apply.
+- Syntax Highlighting - Correct
+- Error Highlighting - Correct
+- Autocomplete - Correct
+- Autodelete
+- IntelliSense - Correct
