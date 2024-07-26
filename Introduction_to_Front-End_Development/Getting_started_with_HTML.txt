@@ -43,7 +43,19 @@ HTML syntax: <img src="icon.png"/>
 HTML Documents: A text document containing simple webpage formatting. We dont need the web to view the HTML document. They don't have to be hosted on a web server for you to view them in your web browser. You can save HTML files on your computer and viewed them locally with your web browser. 
 
 Here we are creating a very simple webpage for restaurant called 'Little Lemon'.
-To create a HTML file and Visual Studio Code. Right-click in the 'Explorer' panel and select 'New File'. I'll name it index.html. But before I can add elements or tags, I first need to create a standard HTML structure which starts with the DOCTYPE declaration. This notifies the web browser that is a HTML documents. Next, I create the HTML tag, which is also known as the HTML root element. Inside the HTML tag, I add two main elements. The head and the body elements. Is important to note that nothing inside the head element is displayed on the webpage in the web browser. In the head element, you add information or metadata about the HTML documents. It is not part of the content of the webpage. 
+To create a HTML file and Visual Studio Code. Right-click in the 'Explorer' panel and select 'New File'. I'll name it index.html. 
+- But before I can add elements or tags, I first need to create a standard HTML structure which starts with the DOCTYPE declaration. This notifies the web browser that is a HTML documents. 
+- Next, I create the HTML tag, which is also known as the 'HTML root element'. 
+- Inside the HTML tag, I add two main elements. The 'head' and the 'body' elements. 
+- Is important to note that nothing inside the head element is displayed on the webpage in the web browser. In the head element, you add information or metadata about the HTML documents. It is not part of the content of the webpage. For example, inside the head tag, you always create the 'title' elements. This is the title that is displayed in the web browser tab. I can also link to CSS files and define Meta tags in the 'head section'. Meta tags can, for instance, specify the description of the web page, keywords for search engines and the order of the web page. 
+- Next up, I add the content of the webpage inside the body tag. 
+- The body can contain elements such as headings, paragraphs, images, and videos. 
+
+Procedure:
+- Let me start by adding a main heading on the webpage by using the H1 tag. Inside the H1 tag, I typed the heading, Our Menu. That's good. Now I need to start creating my menu. I want to add two items. To do that, I add two subheadings. For this, I use the H2 tag. The menu items in the subheadings are falafel and pasta salad. 
+- In order to make sure everything is correct, I open my index.html file in the browser to check my webpage. But first I need to save the file by pressing the keys Control and S or if you're on a Mac, Command and S. Now, I right-click on my index.html file in the explorer panel and select Reveal in File Explorer. If you're not using Windows, this may be called revealing finder or reveal in file browser. Now the file browser opens and lists the file. I double-click on index.html and it opens in the web browser. Great, it's all there. 
+- The title that displays in the browser tab matches the title that I added to the head section and the content is displayed in the browser window but it is still a bit empty. I go back to Visual Studio Code and add a short description for each dish. I do this by adding a paragraph tag below each subheading H2.
+
 Simple HTML Tags
 Linking documnets
 Adding images to a webpage with HTML
