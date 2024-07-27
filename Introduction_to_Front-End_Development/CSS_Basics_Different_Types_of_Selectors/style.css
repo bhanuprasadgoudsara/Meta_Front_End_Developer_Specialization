@@ -1,1 +1,28 @@
-
+/* 1. Element Selectors */
+p { 
+  color: blue; 
+}
+/* 2. ID Selectors */
+#latest { 
+  background-color: purple; 
+}
+/* 3. class Selectors */
+.navigation { 
+  margin: 2px;
+}
+/* 4. Element with class Selectors */
+p.introduction { 
+  margin: 2px;
+}
+/* 5. Descendant  Selectors */
+#blog h1 {
+  color: blue;
+}
+/* 6. Child  Selectors */
+#blog1 > h1 {
+  color: blue;
+}
+/* 7. :hover Pseudo-Class */
+a:hover {
+  color: orange;
+}
