@@ -12,15 +12,15 @@ p {
 }
 /* 4. Element with class Selectors */
 p.introduction { 
-  margin: 2px;
+  margin: 3px;
 }
 /* 5. Descendant  Selectors */
 #blog h1 {
-  color: blue;
+  color: red;
 }
 /* 6. Child  Selectors */
 #blog1 > h1 {
-  color: blue;
+  color: green;
 }
 /* 7. :hover Pseudo-Class */
 a:hover {
