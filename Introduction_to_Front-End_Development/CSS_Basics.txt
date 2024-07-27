@@ -1,8 +1,43 @@
-Selecting and Styling
-Different types of selectors
-Text and color in CSS
-Box model Introduction
-Document flow block vs line
-Alignment basics
-Styling a Page
-Additional resources
+SELECTING AND STYLING
+For websites and web apps, HTML is the frame and structure.
+CSS tells the web browser how to display HTML elements on screen. 
+When using CSS, there are five elements you need to understand. 
+- A declaration block starts with a left curly bracket and ends with the matching right curly bracket. 
+- In between these curly brackets are the style declarations. 
+- The first element of the CSS rule is the selector. This indicates which html element or elements we want to style. 
+Structure of the declaration block.
+- Each declaration is made up of two parts a property and a value. 
+    In this case, 
+    - h1 - selector. 
+    - Color - property and 
+    - gray - value of the property.
+Did you know that you can add additional functionality by using extensions. If you click on the extensions tab, you can install the 'live preview' extension by Microsoft. If you are running VS code locally, you can install and use this extension. Once installed, right click on your html file in the explorer panel and select live preview => show preview. When you update an html file, you immediately notice the changes in visual studio code. 
+
+how to create a CSS file and style some html elements.
+
+Before I start styling elements, create a simple html document named index.html. 
+To demonstrate how CSS works, I will use an example created previously.
+Next I create a file named style.CSS.
+For my web page to use the CSS file, I need to link it to the head element of the html file. 
+To link to a style sheet, you use the 'link' tag which must be assigned to attributes 'rel' and 'href'. 
+The 'rel' attribute is assigned to style sheet and the 'href' attribute is assigned to the name of the style sheet file. 
+In this example, it's style.CSS. I am now ready to apply CSS to the index.html file using style rules that I will write in the style.CSS file.
+
+So now what if I want to only style a single h1 element? I can add an ID attribute to the tag h1 that I want to style. And in my CSS file, I create a rule for that ID. Let's do that now. First, I create an ID rule using the '#' symbol and then the name 'h1'. Then I define the CSS properties of that rule to change the color value to green. 
+
+You may be wondering, why does the first CSS rule not apply to the h1 element with the ID? This is because of something called CSS precedents and specificity. This is a complex statement, but basically the browser will use the most precise selector for an html element. 
+CSS has a set of hierarchy rules which dictate which rule will apply to an element. In this example, the ID rule takes precedence over the html type selector rule. You can learn more about CSS selector rules and precedents from the additional reading at the end of this lesson. 
+Q. When you create a CSS rule, the part inside the curly brackets is called the: 
+- Declaration block - Correct
+- Selector
+- Value
+- Property
+Ans: Everything between the curly brackets is called the declaration  block.
+
+DIFERENT TYPES OF SELECTORS
+TEXT AND COLOR IN CSS
+BOX MODEL INTRODUCTION
+DOCUMENT FLOW BLOCK VS LINE
+ALIGNMENT BASICS
+STYLING A PAGE
+ADDITIONAL RESOURCES
