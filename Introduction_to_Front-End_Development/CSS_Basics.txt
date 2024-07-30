@@ -25,7 +25,7 @@ In this example, it's style.CSS. I am now ready to apply CSS to the index.html f
 
 So now what if I want to only style a single h1 element? I can add an ID attribute to the tag h1 that I want to style. And in my CSS file, I create a rule for that ID. Let's do that now. First, I create an ID rule using the '#' symbol and then the name 'h1'. Then I define the CSS properties of that rule to change the color value to green. 
 
-You may be wondering, why does the first CSS rule not apply to the h1 element with the ID? This is because of something called CSS precedents and specificity. This is a complex statement, but basically the browser will use the most precise selector for an html element. 
+You may be wondering, why does the first CSS rule not apply to the h1 element with the ID? This is because of something called CSS precedence and specificity. This is a complex statement, but basically the browser will use the most precise selector for an html element. 
 CSS has a set of hierarchy rules which dictate which rule will apply to an element. In this example, the ID rule takes precedence over the html type selector rule. You can learn more about CSS selector rules and precedents from the additional reading at the end of this lesson. 
 Q. When you create a CSS rule, the part inside the curly brackets is called the: 
 - Declaration block - Correct
