@@ -116,8 +116,8 @@ Common CSS selectors that you will use as a developer:
         }
 This will select the element with the ID blog (the parent), then it will select all h1 elements that are contained directly in that element (the children). 
 The structure of the child selector is a CSS selector followed by the child combinator symbol > followed by another CSS selector.
-Note that this will not go beyond a single depth level. 
-Therefore, the CSS rule will not be applied to the h1 element containing the text Today's Weather.
+Note : Child Selectors will not go beyond a single depth level. 
+Therefore, the CSS rule will not be applied to the h1 element containing the text 'Today's Weather'.
 
 8. :hover Pseudo-Class
 A special keyword called a pseudo-class allows developers to select elements based on their state. 
@@ -144,7 +144,7 @@ From CSS Version 3, there are 5 main ways to reference a color.
 1. By RGB value,
 2. By RGBA value,
 3. By HSL value,
-4. By hex value and
+4. By hex value and    
 5. By predefined color names.
 
 1. RGB value:
@@ -316,29 +316,98 @@ BOX MODEL INTRODUCTION
     - Its size is known as the "padding box width" and the "padding box height". 
     - The thickness of the padding is determined by the padding top, padding bottom, padding left and padding right. 
     - The padding box width can be calculated as content width plus padding left side plus padding right side. 
+    => padding box width = content width + padding left-side + padding right-side
     - You can calculate the padding box height by adding the content height, the padding top side and padding bottom side together. 
+    => padding box height = content height + padding top-side + padding bottom-side
 - Next, let me show you how you set the border. 
     - The border goes around the padding and content. Its size is known as the "border box width" and "border-box height". 
-    - You can set different types of borders, such as solid border or a dash border. 
+    - You can set different types of borders, such as 
+        - solid border
+        - dash border
+        - dotted border
+        - double border
     - To understand how this plays out practically, I will demonstrate the HTML, the CSS style, and the physical border. 
     - To set the border, you can write border width thin, border width medium, and border width thick. 
+    CSS:
+    h1{
+        border-width : thin ;
+    }
+        h1{
+        border-width : medium ;
+    }
+        h1{
+        border-width : thick ;
+    }
     - Now, let me share with you a pro developer tip to help you calculate the size of your HTML elements when working with the box model. 
     - An HTML element is equal to the size of the border box. 
     - To get the border box width, you add the padding box width plus the border left side plus the border right side. 
+    => border box width = padding box width + border left-side + border right-side
+                        = ( content width + padding left side + padding right side )  + border left-side + border right-side
+                        = content width + padding left side + padding right side + border left-side + border right-side
     - You can calculate the border-box height by adding the padding box height and the border top side, as well as the border bottom side. 
+    => border box height = padding box height + border top-side + border bottom-side
+                        = ( content height + padding top-side + padding bottom-side )  + border top-side + border bottom-side
+                        = content height + padding top-side + padding bottom-side  + border top-side + border bottom-side
+
 - Lastly, let me show you how to set the margin. 
     - Following on from what you have just learned, do you have an idea of what the CSS rule might be? 
     - The margin extends the border area to separate the element from its neighboring elements. 
-    - Its size is known as the "margin box width", and "margin box height". To specify the margin sides, you write, margin top, followed by the value, the margin bottom, margin-left, and margin-right follow the exact same notation. 
+    - Its size is known as the "margin box width", and "margin box height". 
+    - To specify the margin sides, you write, margin top, followed by the value, the margin bottom, margin-left, and margin-right follow the exact same notation. 
+    CSS:
+    div {
+        margin-top : 4px ;
+        margin-bottom : 1px ; 
+        margin-left : 5px ;
+        margin-right : 2px ; 
+    }
+
     - We can also set the padding, border and margin with shorthand properties, 
+    CSS shorthand properties:
+    div {
+        Padding : 4px 2px 1px 5px ;
+        Border-with : 2px 3px 1px 4px ;
+        Margin : 1px 2px 4px 5px ;
+    }  
     - but more on this later. Lastly, let's calculate the size of the margin box. 
-    - Can you guess how? The margin box width can be calculated by adding the border box width, the margin left side and the margin right-side together. 
-    - To get the margin box height at the border box height, margin top side and margin bottom side together. 
+    - Can you guess how? The margin box width can be calculated by adding the border box width, the margin left side and the margin right-side together.
+
+    => margin box width = border box width + margin left-side + margin right-side
+
+                        = ( padding box width + border left-side + border right-side ) + margin left-side + margin right-side
+
+                        = padding box width + border left-side + border right-side + margin left-side + margin right-side
+
+                        = ( content width + padding left side + padding right side ) + border left-side + border right-side + margin left-side + margin right-side
+
+                        = content width + padding left side + padding right side + border left-side + border right-side + margin left-side + margin right-side
+
+    - To get the margin box height at the border box height, margin top side and margin bottom side together.
+    => margin box height = border box height + margin top-side + margin bottom-side
+
+                         = ( padding box height + border top-side + border bottom-side ) + margin top-side + margin bottom-side
+
+                         = padding box height + border top-side + border bottom-side + margin top-side + margin bottom-side
+
+                         = ( content height + padding top-side + padding bottom-side ) + border top-side + border bottom-side + margin top-side + margin bottom-side
+
+                         = content height + padding top-side + padding bottom-side + border top-side + border bottom-side + margin top-side + margin bottom-side
+
     - To easily remember this, think of the content as yourself. 
     - The padding is like the thickness of your clothes. 
     - The border is like the silhouette or outline and the margin is the personal space between you and another person. 
 - In this video, I've opened the box model for you. Inside it is the content and around it flows the padding, the border fits around the padding. 
 - Lastly, the margin is the empty space keeping elements apart. You will work with the box model in every website you develop, so I encourage you to start practicing with it in your designs.
+
+Q. You are busy designing a web page for a small company. They supplied you with an image that needs to be in the center on the landing page. The image has a content width of 100px, 10px padding on both left and right sides, a 10px border on both left and right sides and a 10px margin on both left and right sides. What is the border box width?
+- 180px
+- 140px - Correct
+- 160px
+
+Ans: border box width = content width + padding left side + padding right side + border left-side + border right-side 
+                      = 100 + 10 + 10 + 10 + 10
+                      = 140
+Border box width = content width (100) + padding width (2x10) + border width (2x10)
 
 DOCUMENT FLOW BLOCK VS LINE
 how does the web browser nowhere to place the elements on the screen? 
