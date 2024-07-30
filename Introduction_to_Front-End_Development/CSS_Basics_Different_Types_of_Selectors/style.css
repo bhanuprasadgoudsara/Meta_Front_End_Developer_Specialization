@@ -13,7 +13,7 @@ p {
 }
 /* 4. Element with class Selectors */
 p.introduction { 
-  background-color: violet; 
+  background-color: violet ; 
   margin: 3px;
 }
 /* 5. Descendant  Selectors */
