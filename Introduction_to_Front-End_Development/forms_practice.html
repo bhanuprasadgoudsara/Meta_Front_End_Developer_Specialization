@@ -2,37 +2,51 @@
 <html>
   <head><title>Forms Practice</title></head>
   <body>
+    <h1>Forms</h1>
+    <h1>Input Types:</h1>
+    <h2>1 & 2. Text & Password:</h2>
     <form action="/registration" method="POST">
       <label for="username">Username:</label><br>
       <input type="text" name="username" /><br>
       <label for="username">Password:</label><br>
-      <input type="password" /><br>
+      <input type="password" /><br/>
       <input type="submit" />
     </form>
+    <h2>3. Checkbox:</h2>
     <form>
       <input type="checkbox" name="dog" value="Dog" />
       <label for="dog">Dog</label><br>
       <input type="checkbox" name="cat" value="Cat" />
       <label for="cat">Cat</label>
     </form>
+    <h2>4. Radio Button:</h2>
     <form>
       <input type="radio" name="right" value="Right" />
       <label for="right">I am right handed</label><br/>
       <input type="radio" name="left" value="Left" />
       <label for="left">I am Left handed</label>
     </form>
+    <h2>5. Number:</h2>
     <form>
       <label for="age">Age:</label><br/>
       <input type="number" name="age" /><br/>
+    </form>
+    <h2>6. Email:</h2>
+    <form>
       <label for="email">E-mail:</label><br/>
       <input type="email" name="email" /><br/>
+    </form>
+    <h2>7. File:</h2>
+    <form>
       <label for="file">Upload File:</label><br/>
       <input type="file" name="file" />
     </form>
+    <h2>8. Text Area for Multi-Lines:</h2>
     <form>
       <label for="multiline">Multi-Line Text Area:</label><br/>
       <textarea name="multiline" rows="5"></textarea>
     </form>
+    <h2>9. Select an Option in Drop-down List:</h2>
     <form>
       <label for="food">Select a Food:</label>
       <select name="food">
