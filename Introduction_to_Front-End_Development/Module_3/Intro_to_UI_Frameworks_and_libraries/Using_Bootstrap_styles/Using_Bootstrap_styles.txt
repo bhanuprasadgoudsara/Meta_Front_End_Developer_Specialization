@@ -32,8 +32,8 @@ I will show you how to use this shortly.
 Bootstrap components provide a pre built set of reusable UI styles and elements for your web applications. 
 Let's now learn how to use modifiers through an example that uses an alert element. 
 I can have an html file where I set an alert primary CSS class that is applied to the element. 
-Alert primary displays the alert using Bootstraps primary color which is blue. 
-The dash primary part of the class is the modifier. 
+Alert primary displays the alert using Bootstraps primary color which is 'blue'. 
+The '-primary' part of the class is the modifier. 
 If you want to change this to red for example, for an error message you will use the danger modifier. 
 Here is a list of modifiers available in Bootstrap. 
 - primary, 
