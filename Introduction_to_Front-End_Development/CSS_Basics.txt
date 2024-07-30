@@ -573,5 +573,46 @@ CSS:
 }
 The following displays in the web browser:  
 
+Knowledge check: CSS basics:
+1. To reference a CSS file in an HTML document, you use the ______________ tag.
+- head
+- script
+- style
+- link - Correct
+
+2. In the following CSS rule, the `h1` part of the rule is called the ______________.
+h1 {
+    color: green;
+}
+- Box model
+- Selector - Correct
+- Inheritance
+- HTML
+
+3. What is the total horizontal margin of the following CSS rule?
+div {
+    width: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+- 10 pixels
+- 30 pixels
+- 80 pixels - Correct
+- 70 pixels
+For the given CSS rule, the total horizontal margin is the sum of the left and right margins. In this rule, the margin on the left is 40px, and the margin on the right is also 40px. Thus, the total horizontal margin is 40px (margin-left) + 40px (margin-right) = 80px.
+
+4. Which CSS property and value change the HTML element to a block-level element?
+- align-content  
+- content
+- list-style
+- display: block - Correct
+
+5. Which CSS property and value change the text to center alignment?
+- text-align: center - Correct
+- align-self   
+- vertical-align   
+- align-items  
+
+
 STYLING A PAGE
 ADDITIONAL RESOURCES
