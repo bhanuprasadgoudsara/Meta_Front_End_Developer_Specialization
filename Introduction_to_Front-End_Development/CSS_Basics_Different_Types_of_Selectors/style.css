@@ -8,12 +8,12 @@ p {
 }
 /* 3. class Selectors */
 .navigation { 
-  margin-color: yellow ;
+  background-color: yellow; 
   margin: 2px;
 }
 /* 4. Element with class Selectors */
 p.introduction { 
-  margin-color: voilet ;
+  background-color: voilet; 
   margin: 3px;
 }
 /* 5. Descendant  Selectors */
