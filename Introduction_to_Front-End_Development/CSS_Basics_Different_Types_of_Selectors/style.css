@@ -15,6 +15,9 @@ p.introduction {
   margin: 3px;
 }
 /* 5. Descendant  Selectors */
+#blog h1 {
+  color: blue;
+}
 #blog div h1 {
   color: red;
 }
