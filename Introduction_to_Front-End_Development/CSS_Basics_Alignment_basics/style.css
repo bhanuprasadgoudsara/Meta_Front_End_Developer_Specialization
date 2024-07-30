@@ -9,6 +9,14 @@ p {
   padding: 20px ;
   border: 4px solid green ;
 }
+.child1 {
+  display: block ;
+  width: 50% ;
+  margin: auto ;
+}
+.child2 {
+  float: right ;
+}
 /*
 .child {
   width: 50%;
@@ -17,11 +25,6 @@ p {
   margin: auto ;
 }
 */
-.child1 {
-  display: block ;
-  width: 50% ;
-  margin: auto ;
-}
 /*
 .child1 {
   display: block ;
@@ -30,6 +33,3 @@ p {
   margin-right: auto;
 }
 */
-.child2 {
-  float: right ;
-}
