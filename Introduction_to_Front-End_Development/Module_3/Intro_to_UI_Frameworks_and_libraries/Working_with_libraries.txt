@@ -17,6 +17,7 @@ We will learn:
     - I also included a 'rel' attribute to specify that the link is for a style sheet. 
 - Bootstrap also provides a JavaScript library that enables enhanced functionality, such as drop-downs and tooltips. 
 - You'll likely need those features during development. 
+
 - How to add the JavaScript library to your webpage. 
     - Open your previous file that already has the Bootstrap CSS. 
     - Next, add the JavaScript library for Bootstrap in the body element using a 'script' element. 
@@ -47,3 +48,8 @@ We will learn:
 - The purpose of a "bundler" is to automatically combine them into a single file. 
 - If you're bundle is significantly large, many bundles can split your dependencies into multiple bundles. 
 - There are many bundle is available such as "Gulp" and "Webpack". 
+
+Q.As a developer, deploying your application to a web server, you will use a bundling tool to:  (select the correct answer) 
+- Combine all your dependencies into a single file. - Correct
+- Upload your CSS to the web server.
+- Add images to your website.
