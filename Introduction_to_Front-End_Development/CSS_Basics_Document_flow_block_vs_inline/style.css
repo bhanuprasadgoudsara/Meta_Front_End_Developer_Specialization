@@ -1,1 +1,8 @@
-
+/* To display inline */
+#middle {
+  display : inline ;
+}
+/* To display in-block */
+/* #middle {  } */
+/* To display in-block */
+/* #middle { display : block ; } */
