@@ -7,16 +7,16 @@ In the world of web development, you use responsive design every day.
 - How Responsive design works?
 - How responsive design is used to provide the best user experience based on the device that the website is viewed on?
 - Describe CSS media queries and screen resolutions.
-- Classify fluid images and differentiate between fixed and fluid grids. 
+- Classify fluid images and 
+- Differentiate between fixed and fluid grids. 
 
 Phone, tablet and computer screens including the one you're probably using now and made up of thousands of tiny lights called "pixels". 
 The "resolution" of your screen refers to the number of pixels it contains most often expressed as the number of horizontal pixels multiplied by the number of vertical pixels. 
 For example, a common computer screen resolution is 1920 pixels in width 1080 pixels in height. 
-
 Thanks to responsive design websites can be correctly displayed on any of your devices. 
 However, today we have many different screens with different resolutions, which is why responsive design is so important. 
-And it is complicated by new high resolution screens like the one found on your mobile phone. 
-These screens group multiple physical pixels into one logical pixel to display smoother images and text. 
+And it is complicated by new high resolution screens like the one found on your mobile phone.   
+These screens group '''multiple physical pixels into one logical pixel''' to display smoother images and text. 
 These are often used in your favorite smartphones to give more high definition visuals like making text images and rounded edges appear smoother and making the individual pixels less visible. 
 Given all the possibilities and complicating factors, it would be challenging to develop websites that appear correctly on all kinds of devices if it wasn't for responsive design. 
 Responsive design is a set of three practices that allows a website to automatically change its visuals. 
@@ -34,13 +34,16 @@ Flexible grids are made up of columns, gutters and margins.
 Instead of defining website Element sizes based on pixels, flexible grids are defined in percentage values, allowing them to adjust depending on screen size. 
 
 Fluid Images:
-You have fluid images by setting the CSS max width property of images to 100%. 
+You have fluid images by setting the CSS 'max-width' property of images to 100%. 
 The images will scale down smaller if they're containing column becomes narrower than the images size but never grow larger. 
 This enables an image to scale down to fit in a flexibly sized column rather than overflow it but not grow larger and become pixelated if the column becomes wider than the image. 
 
 Media Queries. 
 There are media queries that are part of CSS. 
-They allow developers to query the display size orientation and aspect ratio to conditionally apply CSS rules. 
+They allow developers to query the display 
+  - size, 
+  - orientation and 
+  - aspect ratio to conditionally apply CSS rules. 
 For example, if you wanted your website background to appear blue on a screen size less than or equal to 700 pixels. 
 Like on a mobile phone, you could use a media rule to set the background depending on the size of the screen. 
 
@@ -65,7 +68,15 @@ In a fluid grid, columns either grow or shrink to adapt to the available space.
 
 3. Hybrid Grids:
 There are hybrid grids that have both fluid width and fixed with components. 
-Many responsive design frameworks provide multiple CSS rules based on different device sizes to provide the best visual experience. 
 
+Many responsive design frameworks provide multiple CSS rules based on different device sizes to provide the best visual experience. 
 Now you know the importance of responsive design. 
 In the next few videos, you're going to learn more about bootstrap, the world's most Popular framework for building responsive mobile 1st Sites.
+
+Q. There are media queries that are a part of the CSS version 3 specification. What do they allow developers to query in order to conditionally apply CSS rules? Choose all that apply.  
+- Aspect Ratio
+- Display Brightness
+- Orientation
+- Display Size
+
+Ans: The media queries that are a part of the CSS version 3 specification that allows developers to query display size, orientation and aspect ratio.
