@@ -1,1 +1,35 @@
+Summary of Introductory module on HTML5 and CSS. 
+- the basics of HTML or Hypertext Markup Language. 
+  - what is HTML? 
+  - Describe the purpose of HTML in a web browser.
+  - demonstrate the use of HTML tags, including how to ensure that you use the correct syntax.
+  - identify how HTML elements are utilized in a web document. 
+  - HTML documents, 
+  - Should be able to 
+    - outline the structure of an HTML page, including the root, head, body and other elements.
+    - Demonstrate how to build basic HTML documents by combining common key elements and tags in order to create a structure, and 
+    - Explain how to create a link between HTML documents with the use of an Href or hypertext reference attribute, to redirect users between the documents.
+    - Add images to a web page with HTML code. 
+    - Utilize HTML to manipulate data in tables. and 
+    - build HTML forms with a wide range of input types. 
+  - Document Object Model or DOM, a tree structure or model of objects in an HTML page. 
+    - Explain what the DOM is, and the purpose that it serves with an HTML document.
+    - Demonstrate how the DOM is created from an HTML page by exploring the element that generate it, and visualizing it in diagram form. and 
+    - Provide a high level description of common instances in which web developers interact with the DOM through JavaScript. 
+      - These include, updating content, setting up events, and animating HTML elements. 
+Concept of web accessibility
+  - by exploring how people with disabilities can understand, navigate, and interact with websites. 
+  should now be able to, 
+    - Demonstrate high level knowledge of assistive technologies used to browse the web like screen reading and speech recognition software.
+    - Make use of basic techniques to improve the accessibility of your web projects, such as correct HTML structure. 
 
+Basics of CSS or Cascading Style Sheets. 
+The lesson began with an overview of selecting and styling in which you learn to 
+  - write CSS rules in order to style elements within HTML document. 
+  - Demonstrate and understanding of the box model and its key features. and 
+  - Explain the concept of document flow. 
+
+You then demonstrated your skills in these topics by 
+  - creating a biographical webpage.
+
+You should now be familiar with the basics of HTML5 and CSS.
