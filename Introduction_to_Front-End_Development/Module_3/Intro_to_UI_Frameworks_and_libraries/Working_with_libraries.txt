@@ -2,7 +2,7 @@
 We will learn:
  - How to include CSS and JavaScript libraries in your HTML file. 
  - What are dependencies ?
- - The purpose of a package manager and JavaScript handlers. 
+ - The purpose of a package manager and JavaScript bundlers. 
 
 - We write code in our application and that this code interacts with APIs provided by libraries and frameworks. 
 - Since you'll be deploying your application to a web server in the end, you must include these libraries and frameworks with it. 
@@ -47,7 +47,7 @@ We will learn:
 - This is where you will use a 'bundling tool'. 
 - The purpose of a "bundler" is to automatically combine them into a single file. 
 - If you're bundle is significantly large, many bundles can split your dependencies into multiple bundles. 
-- There are many bundle is available such as "Gulp" and "Webpack". 
+- There are many bundles available such as "Gulp" and "Webpack". 
 
 Q.As a developer, deploying your application to a web server, you will use a bundling tool to:  (select the correct answer) 
 - Combine all your dependencies into a single file. - Correct
