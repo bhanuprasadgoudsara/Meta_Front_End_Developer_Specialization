@@ -409,10 +409,11 @@ Ans: border box width = content width + padding left side + padding right side +
                       = 140
 Border box width = content width (100) + padding width (2x10) + border width (2x10)
 
+
 DOCUMENT FLOW BLOCK VS LINE
 how does the web browser nowhere to place the elements on the screen? 
 - The web browsers normal way of calculating the position of html elements on the screen is called "document flow". 
-- By default, nearly all html elements are organized into one of two categories namely in block and in line elements.
+- By default, nearly all html elements are organized into one of two categories namely in-block and in-line elements.
     - A block level element will occupy the full horizontal width of its parent element and the vertical height of its content. 
     - Each block level element will have a new line before and after. 
     - Therefore, multiple block level elements will stack on top of each other like a stack of boxes. 
@@ -421,8 +422,24 @@ how does the web browser nowhere to place the elements on the screen?
     - Therefore, multiple in line elements can form a row of elements. 
 - When coding in html, you need to be able to recognize and use block elements. 
 - Some examples of block level elements include the tags, div form and heading. 
+    1. <div></div>
+    2. <form></form>
+    3. <h1></h1> similarly 
+    4. <h2></h2> 
+    5. <h3></h3> 
+    6. <h4></h4> and 
+    7. <h5></h5>
+
 - You also need to be familiar with common in line elements. 
-- These include the tags anchor, image, input label, bold, italics, emphasis and span.
+- These include the tags anchor, image, input, label, bold, italics, emphasis and span.
+    1. <a href="index.html"></a>
+    2. <img src="photo.png">
+    3. <input>
+    4. <label></label> 
+    5. <b></b> 
+    6. <i></i> and 
+    7. <em></em>
+    8. <span></span>
 
 Let me demonstrate the difference between block and in line now by using an example of an html file containing div and span elements.
 I have a div element containing three sentences of Lauren ipsum. A div or divided element is used to divide content into sections. If you don't speak Latin, don't worry. Lauren Ipsum is placeholder text that has been used since the 1500s.
