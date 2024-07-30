@@ -39,7 +39,7 @@ We will learn:
 - For each dependency, you can specify a version of that dependency and the package manager will download it for you. 
 - If there is a dependency tree, the package manager takes care of that for you. 
 - It will automatically download all of the dependency tree so that you can use APIs without dependency issues. 
-- The most common package manager for front end development is the Node Package Manager(NPM) for sure. 
+- The most common package manager for front end development is the "Node Package Manager(NPM)". 
 
 - Now that all your dependencies are downloaded, you need to include them in your HTML file. 
 - But adding all of them into an HTML file would take forever. 
